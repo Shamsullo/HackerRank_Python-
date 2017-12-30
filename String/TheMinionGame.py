@@ -1,3 +1,4 @@
+#the solution does'n apply for all the cases but i am trying to find another solution
 def minion_game(string):
     # your code goes here
     
