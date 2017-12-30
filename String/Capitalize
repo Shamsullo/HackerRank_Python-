@@ -1,0 +1,21 @@
+def capitalize(string):
+   
+    #string = string.capitalize()
+  
+    split_s =  string.split(' ')
+    space = " "
+    result_string = []
+        
+    for i in split_s:
+        result_string.append(i.capitalize())
+    
+    string = space.join(result_string)
+    
+    return string
+
+
+#given
+if __name__ == '__main__':
+    string = raw_input()
+    capitalized_string = capitalize(string)
+    print capitalized_string
