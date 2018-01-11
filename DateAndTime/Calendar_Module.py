@@ -1,5 +1,4 @@
-import calendar
-import datetime
+import calendar, datetime
 
 input_date = input()
 
